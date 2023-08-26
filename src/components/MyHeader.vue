@@ -36,7 +36,7 @@
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a class="dropdown-item btn_item" href="#">App Store</a></li>
-                    <li><a class="dropdown-item" href="#">Google Play</a></li>
+                    <li><a class="dropdown-item btn_item" href="#">Google Play</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -46,9 +46,14 @@
                     <img src="../assets/img/header/arrow-down.svg" alt="logo" class="mw-100">
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li class="d-flex align-items-center">
+                      <img src="../assets/img/header/sweden.svg" alt="logo" class="mw-100 m-2">
+                      <a class="dropdown-item btn_item p-lg-0 p-md-1 p-sm-1" href="#">Sverige</a>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <img src="../assets/img/header/united-kingdom.svg" alt="logo" class="mw-100 m-2">
+                      <a class="dropdown-item btn_item p-lg-0 p-md-1 p-sm-1" href="#">English</a>
+                    </li>
                   </ul>
                 </li>
             </ul>
