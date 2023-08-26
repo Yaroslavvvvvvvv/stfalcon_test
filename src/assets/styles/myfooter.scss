@@ -1,0 +1,52 @@
+@import "./variables";
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background: $footer_background;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .footer_logo {
+    color: $background;
+    font-family: $font;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .footer_logo:hover {
+    color: $purple_hover;
+    transition: .5s;
+  }
+
+  .footer_link {
+    color: $background;
+    font-family: $font;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+  }
+
+  .footer_link:hover {
+    color: $purple_hover;
+    transition: .5s;
+  }
+
+  .footer_logo {
+    margin-left: 10px;
+  }
+  @media (max-width: 767.98px) {
+    .footer_link{
+      display: none;
+    }
+  }
+}
