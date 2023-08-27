@@ -1,10 +1,13 @@
 <template>
-<div>Hello</div>
+<FirstSection/>
 </template>
 
 <script>
+import FirstSection from "@/components/FirstSection.vue";
+
 export default {
-  name: "MyHome"
+  name: "MyHome",
+  components: {FirstSection}
 }
 </script>
 

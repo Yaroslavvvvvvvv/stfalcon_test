@@ -1,0 +1,33 @@
+@import "./variables";
+
+.first_section {
+  background: $background;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .purple_block {
+    background: #E8DEF8;
+    height: 770px;
+    border-radius: 50px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 81%, 0% 100%);
+
+    .first_line {
+      margin-left: 730px;
+    }
+
+    .second_line {
+      margin-left: 685px;
+    }
+
+    .third_line {
+      margin-top: 580px;
+    }
+
+    .fourth_line {
+      margin-top: 510px;
+    }
+    .fifth_line{
+      margin-top: 470px;
+    }
+  }
+}
