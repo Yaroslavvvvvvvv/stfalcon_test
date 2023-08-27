@@ -1,5 +1,6 @@
 <template>
   <MyHeader/>
+  <router-view></router-view>
   <MyFooter/>
 </template>
 
