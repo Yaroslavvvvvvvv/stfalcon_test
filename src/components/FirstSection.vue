@@ -1,7 +1,7 @@
 <template>
   <section class="first_section">
     <div class="container">
-      <div class="purple_block position-relative">
+      <div class="purple_block position-relative mw-100">
         <div class="position-absolute">
           <img src="../assets/img/first_section/first_line.svg" alt="line" class="mw-100 first_line">
         </div>
