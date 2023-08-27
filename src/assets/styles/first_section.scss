@@ -26,8 +26,60 @@
     .fourth_line {
       margin-top: 510px;
     }
-    .fifth_line{
+
+    .fifth_line {
       margin-top: 470px;
+    }
+
+    @media (max-width: 1399.98px) {
+      .first_line {
+        margin-left: 550px;
+      }
+      .second_line {
+        margin-left: 510px;
+      }
+      .third_line {
+        margin-top: 580px;
+      }
+      .fourth_line {
+        margin-top: 500px;
+      }
+      .fifth_line {
+        margin-top: 470px;
+      }
+    }
+    @media (max-width: 1199.98px) {
+      .first_line {
+        margin-left: 370px;
+      }
+      .second_line {
+        margin-left: 330px;
+      }
+    }
+    @media (max-width: 991.98px) {
+      .first_line {
+        margin-left: 130px;
+      }
+      .second_line {
+        margin-left: 90px;
+      }
+      .third_line {
+        margin-top: 580px;
+      }
+      .fourth_line {
+        margin-top: 490px;
+      }
+      .fifth_line {
+        margin-top: 440px;
+      }
+    }
+    @media (max-width: 767.98px) {
+      .first_line {
+        margin-left: 0;
+      }
+      .second_line {
+        margin-left: 0;
+      }
     }
   }
 }
