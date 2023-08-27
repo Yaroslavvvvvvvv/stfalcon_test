@@ -19,32 +19,26 @@
             <img src="../assets/img/first_section/fifth_line.svg" alt="line" class="mw-100 fifth_line">
           </div>
         </div>
-        <div class="position-absolute">
-          <img src="../assets/img/first_section/iphone.png" alt="iphone" class="mw-100 iphone">
-        </div>
-        <div class="position-absolute">
-          <h1>Strong for life<br>with us</h1>
-          <hr class="colored_line">
-          <p>The best Pre/postnatal fitness app! 100<br>
-            exercises divided in before, during and<br>
-            after pregnancy. Stay strong and healthy<br>
-            through all stages of pregnancy. </p>
-        </div>
-        <div class="position-absolute">
-          <a href="#">
-            <img src="../assets/img/first_section/app_store.svg" alt="logo" class="mw-100 app_store">
-          </a>
-        </div>
-        <div class="position-absolute">
-          <a href="#">
-            <img src="../assets/img/first_section/google_play.svg" alt="logo" class="mw-100 google_play">
-          </a>
-        </div>
-        <div class="position-absolute">
-          <img src="../assets/img/first_section/left_phone.png" alt="image" class="mw-100 left_phone">
-        </div>
-        <div class="position-absolute">
-          <img src="../assets/img/first_section/right_phone.png" alt="image" class="mw-100 right_phone">
+        <div class="row position-absolute">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h1>Strong for life<br>with us</h1>
+            <hr class="colored_line">
+            <p>The best Pre/postnatal fitness app! 100<br>
+              exercises divided in before, during and<br>
+              after pregnancy. Stay strong and healthy<br>
+              through all stages of pregnancy. </p>
+            <a href="#">
+              <img src="../assets/img/first_section/app_store.svg" alt="logo" class="mw-100 app_store">
+            </a>
+            <a href="#">
+              <img src="../assets/img/first_section/google_play.svg" alt="logo" class="mw-100 google_play">
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="../assets/img/first_section/iphone.png" alt="iphone" class="mw-100 iphone">
+            <img src="../assets/img/first_section/left_phone.png" alt="image" class="mw-100 left_phone">
+            <img src="../assets/img/first_section/right_phone.png" alt="image" class="mw-100 right_phone">
+          </div>
         </div>
       </div>
     </div>
