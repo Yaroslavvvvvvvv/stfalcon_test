@@ -84,6 +84,8 @@
   }
 
   .iphone {
+    max-width: 100%;
+    height: auto;
     margin-top: -650px;
     margin-left: 190px;
   }
@@ -201,14 +203,16 @@
       display: none;
     }
     .iphone {
-      margin-left: -20px;
-      margin-top: -400px;
+      max-width: 75%;
+      margin-left: 70px;
+      margin-top: -500x;
     }
   }
   @media (max-width: 767.98px) {
     .iphone {
+      max-width: 50%;
       margin-top: -270px;
-      margin-left: 140px;
+      margin-left: 240px;
     }
     h1 {
       font-size: 3.5rem;
@@ -225,25 +229,26 @@
   @media (max-width: 575.98px) {
     h1 {
       font-size: 3.2rem;
-      margin-left: 10px;
+      margin-left: 5px;
     }
     .colored_line {
-      margin-left: 10px;
+      margin-left: 5px;
     }
 
     p {
       font-size: 1.1rem;
-      margin-left: 10px;
+      margin-left: 5px;
     }
     .app_store {
-      margin-left: 10px;
+      margin-left: 5px;
     }
     .google_play{
       margin-left: 10px;
     }
     .iphone{
-      margin-left: 0;
-      margin-top: -250px;
+      max-width: 50%;
+      margin-left: 140px;
+      margin-top: -350px;
     }
   }
 }

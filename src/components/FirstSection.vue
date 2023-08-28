@@ -35,7 +35,7 @@
             </a>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="../assets/img/first_section/iphone.png" alt="iphone" class="mw-100 iphone">
+            <img src="../assets/img/first_section/iphone.png" alt="iphone" class="iphone">
             <img src="../assets/img/first_section/left_phone.png" alt="image" class="mw-100 left_phone">
             <img src="../assets/img/first_section/right_phone.png" alt="image" class="mw-100 right_phone">
           </div>
