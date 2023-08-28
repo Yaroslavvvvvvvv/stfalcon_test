@@ -1,0 +1,60 @@
+@import "./variables";
+
+.third_section {
+  background: $background;
+  margin-top: 150px;
+
+  h2 {
+    color: $dark_text;
+    font-family: $font;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .header_text{
+    color: $next_text;
+    font-family: $font;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .colored_line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 46px;
+    border: 3px solid $colored_line;
+  }
+  @media (max-width: 1199.98px) {
+    .header_text{
+      br {
+        display: none;
+      }
+    }
+  }
+  @media (max-width: 991.98px) {
+    h2 {
+      font-size: 2.6rem;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .header_text{
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 575.98px) {
+    h2 {
+      font-size: 2rem;
+    }
+    .header_text{
+      font-size: 1rem;
+    }
+  }
+
+}
+@media (max-width: 767.98px) {
+  .third_section{
+    margin-top: 50px;
+  }
+}
