@@ -3,16 +3,87 @@
 .third_section {
   background: $background;
   margin-top: 150px;
+  margin-bottom: 150px;
 
-  h2 {
+  .first_third {
+    margin-bottom: 150px;
+
+    h2 {
+      color: $dark_text;
+      font-family: $font;
+      font-size: 3.125rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .header_text {
+      color: $next_text;
+      font-family: $font;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    .colored_line {
+      margin-left: auto;
+      margin-right: auto;
+      width: 46px;
+      border: 3px solid $colored_line;
+    }
+
+    @media (max-width: 1199.98px) {
+      .header_text {
+        br {
+          display: none;
+        }
+      }
+    }
+    @media (max-width: 991.98px) {
+      h2 {
+        font-size: 2.6rem;
+      }
+    }
+    @media (max-width: 767.98px) {
+      .header_text {
+        font-size: 1.5rem;
+      }
+    }
+    @media (max-width: 575.98px) {
+      h2 {
+        font-size: 2rem;
+      }
+      .header_text {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  h3 {
     color: $dark_text;
     font-family: $font;
-    font-size: 3.125rem;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
-  .header_text{
+
+  .next_line {
+    width: 46px;
+    border: 3px solid $colored_line;
+  }
+
+  .text_regular {
+    color: $next_text;
+    font-family: $font;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  h5 {
     color: $next_text;
     font-family: $font;
     font-size: 2rem;
@@ -20,41 +91,81 @@
     font-weight: 500;
     line-height: normal;
   }
-  .colored_line {
-    margin-left: auto;
-    margin-right: auto;
-    width: 46px;
-    border: 3px solid $colored_line;
+
+  .right_iphone {
+    max-width: 100%;
+    margin-top: -648px;
+    margin-left: 102px;
   }
+
   @media (max-width: 1199.98px) {
-    .header_text{
+    .right_iphone {
+      max-width: 75%;
+      margin-left: 77px;
+      margin-top: -595px;
+    }
+    .text_regular {
       br {
         display: none;
       }
     }
   }
   @media (max-width: 991.98px) {
-    h2 {
-      font-size: 2.6rem;
+    .right_iphone {
+      margin-left: 42px;
+      margin-top: -485px;
+    }
+    h3 {
+      font-size: 2.4rem;
+    }
+    .text_regular {
+      font-size: 1rem;
     }
   }
   @media (max-width: 767.98px) {
-    .header_text{
-      font-size: 1.5rem;
+    h3 {
+      font-size: 2.5rem;
+    }
+    .text_regular {
+      font-size: 1.125rem;
+
+      br {
+        display: inline-block;
+      }
+    }
+    .first_third {
+      margin-bottom: 40px;
+    }
+    .right_iphone {
+      min-width: 50%;
+      height: auto;
+      margin-top: -630px;
+      margin-left: 100px;
+    }
+    .right_block {
+      margin-top: 150px;
     }
   }
   @media (max-width: 575.98px) {
-    h2 {
-      font-size: 2rem;
+    .right_iphone {
+      max-width: 50%;
+      margin-left: 88px;
+      margin-top: -400px;
     }
-    .header_text{
-      font-size: 1rem;
+    .right_block {
+      margin-top: 50px;
+    }
+    .text_regular {
+      br {
+        display: none;
+      }
     }
   }
 
 }
+
 @media (max-width: 767.98px) {
-  .third_section{
+  .third_section {
     margin-top: 50px;
   }
 }
