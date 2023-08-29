@@ -32,6 +32,30 @@
           </div>
         </div>
       </div>
+      <div class="position-relative text-center">
+        <img src="../assets/img/third_section/healthy.svg" alt="word" class="healthy">
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="position-relative">
+            <img src="../assets/img/third_section/left.svg" alt="logo" class="mw-100">
+            <div class="position-absolute">
+              <img src="../assets/img/third_section/left_iphone.png" alt="iphone" class="left_iphone">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 left_block">
+          <h3>During pregnancy</h3>
+          <hr class="next_line">
+          <p class="text_regular">
+            Working out during pregnancy has many benefits for<br>
+            both the mom and the baby. It can reduce back pain,<br>
+            help prevent gestational diabetes, promote good<br>
+            posture, strength and endurance, and also improve the<br>
+            ability to cope with labor.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
