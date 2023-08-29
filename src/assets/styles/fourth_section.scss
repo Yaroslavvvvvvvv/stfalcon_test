@@ -1,0 +1,242 @@
+@import "./variables";
+
+.fourth_section {
+  background: $background;
+  margin-bottom: 100px;
+
+  h2 {
+    color: $dark_text;
+    font-family: $font;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .colored_line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 46px;
+    border: 3px solid $colored_line;
+  }
+
+  h4 {
+    margin-top: -200px;
+    margin-left: 32px;
+    color: $background;
+    font-family: $font;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  @media (max-width: 1199.98px) {
+    h4 {
+      font-size: 1.7rem;
+      margin-left: 16px;
+      margin-top: -150px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    h4 {
+      font-size: 1.2rem;
+      margin-top: -120px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    h4 {
+      margin-top: -150px;
+      font-size: 1.7rem;
+    }
+  }
+  @media (max-width: 575.98px) {
+    h4 {
+      font-size: 1rem;
+      margin-top: -100px;
+    }
+  }
+
+  .small_logo {
+    margin-left: 32px;
+
+
+    .name_info {
+      margin-left: 5px;
+      color: $background;
+      font-family: $font;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px
+    }
+
+    .date_info {
+      margin-left: 35px;
+      color: $background;
+      font-family: $font;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px
+    }
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  .stroller {
+    margin-top: -80px;
+    margin-left: 16px;
+    color: $background;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .small_date {
+    margin-left: 16px;
+    color: $background;
+    font-family: $font;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .fitness_gear {
+    margin-top: -140px;
+    margin-left: 16px;
+    color: $background;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .workout {
+    margin-top: 185px;
+    margin-left: 16px;
+    color: $background;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .therapist {
+    margin-top: 95px;
+    margin-left: 16px;
+    color: $background;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  @media (max-width: 1399.98px) {
+    .workout {
+      margin-top: 160px;
+    }
+    .therapist {
+      margin-top: 70px;
+    }
+    .next {
+      padding-top: 24px;
+    }
+  }
+
+  @media (max-width: 1199.98px) {
+
+    .small_logo {
+      margin-left: 16px;
+    }
+    .workout {
+      margin-top: 110px;
+    }
+    .therapist {
+      margin-top: 25px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    h5 {
+      font-size: 1rem;
+    }
+    .stroller {
+      margin-top: -60px;
+    }
+    .workout {
+      margin-top: 80px;
+    }
+    .fitness_gear {
+      margin-top: -100px;
+    }
+    .therapist {
+      margin-top: 20px;
+    }
+  }
+
+  .next {
+    padding-top: 32px;
+  }
+
+  @media (max-width: 767.98px) {
+    .small_first {
+      padding-top: 24px;
+    }
+    h5 {
+      font-size: 1.5rem;
+    }
+    .stroller {
+      margin-top: -80px;
+    }
+    .workout {
+      margin-top: 140px;
+    }
+    .fitness_gear {
+      margin-top: -130px;
+    }
+    .therapist {
+      margin-top: 60px;
+    }
+  }
+  @media (max-width: 575.98px) {
+    .stroller {
+      margin-top: -70px;
+    }
+    .fitness_gear {
+      margin-top: -125px;
+    }
+    .workout {
+      margin-top: 190px;
+    }
+    .therapist {
+      margin-top: 110px;
+    }
+  }
+
+  .button_right {
+    margin-left: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $dark_text;
+    font-family: $font;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  a:hover{
+    color: $purple_hover;
+    transition: .5s;
+  }
+  @media (max-width: 575.98px) {
+    a {
+      font-size: 1.4rem;
+    }
+  }
+}
