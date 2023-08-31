@@ -1,0 +1,30 @@
+@import "./variables";
+
+.last_section {
+  background: $background;
+
+  .my_form {
+    max-width: 100%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    height: 560px;
+    border-radius: 14px;
+    background: $form;
+
+    .svg_line {
+      max-width: 100%;
+      width: 1400px;
+      height: 560px;
+      transform: rotate(0.073deg);
+      flex-shrink: 0;
+
+      .svg_path {
+        flex-shrink: 0;
+        stroke-width: 2px;
+        stroke: #CABFE8;
+        opacity: 0.6;
+        fill: none;
+      }
+    }
+  }
+}

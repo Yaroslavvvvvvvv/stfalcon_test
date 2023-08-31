@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/MyHome.vue';
-import About from '@/views/MyForm.vue';
+import MyForm from "@/views/MyForm.vue";
 
 const routes = [
     { path: '/', component: Home },
-    { path: '/form', component: About }
+    { path: '/form', component: MyForm }
 ];
 
 const router = createRouter({

@@ -21,7 +21,7 @@
         </div>
         <div class="position-absolute small_form mw-100">
           <h2>Send your data</h2>
-          <button type="button" class="btn button_form">Go to form</button>
+          <button @click="goToForm" type="button" class="btn button_form">Go to form</button>
         </div>
       </div>
     </div>
@@ -30,7 +30,12 @@
 
 <script>
 export default {
-  name: "LinkForm"
+  name: "LinkForm",
+  methods: {
+    goToForm() {
+      this.$router.push('/form');
+    }
+  }
 }
 </script>
 
