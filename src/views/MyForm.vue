@@ -45,6 +45,7 @@
 </template>
 
 <script>
+import 'fontsource-montserrat';
 export default {
   name: "MyForm",
   data() {

@@ -12,6 +12,7 @@ import SecondSection from "@/components/SecondSection.vue";
 import ThirdSection from "@/components/ThirdSection.vue";
 import FourthSection from "@/components/FourthSection.vue";
 import LinkForm from "@/components/LinkForm.vue";
+import 'fontsource-montserrat';
 
 export default {
   name: "MyHome",
@@ -19,6 +20,7 @@ export default {
 }
 </script>
 
-<style scoped>
+
+<style lang="scss">
 
 </style>
