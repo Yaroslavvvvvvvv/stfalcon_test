@@ -22,20 +22,21 @@
         </div>
         <div class="position-absolute">
           <h2>Send your data</h2>
-          <form>
+          <form @submit.prevent="submitForm">
             <div class="form-group">
-              <input type="text" class="my_input" placeholder="First name">
+              <input v-model="firstName" type="text" class="my_input" placeholder="First name">
             </div>
             <div class="form-group">
-              <input type="text" class="my_input" placeholder="Second name">
+              <input v-model="lastName" type="text" class="my_input" placeholder="Second name">
             </div>
             <div class="form-group">
-              <input type="email" class="my_input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <input type="email" class="my_input" id="exampleInputEmail1" aria-describedby="emailHelp"
+                     placeholder="Enter email" v-model="email">
             </div>
             <div class="form-group">
-              <input type="text" class="my_input" id="inputAddress" placeholder="Adress">
+              <input type="text" class="my_input" id="inputAddress" placeholder="Address" v-model="address">
             </div>
-            <button type="submit" class="btn my_submit">Submit</button>
+            <button @click="submitForm" type="submit" class="btn my_submit">Submit</button>
           </form>
         </div>
       </div>
@@ -45,7 +46,28 @@
 
 <script>
 export default {
-  name: "MyForm"
+  name: "MyForm",
+  data() {
+    return {
+      firstName: "",
+      lastName: "",
+      email: "",
+      address: "",
+    }
+  },
+  methods: {
+    submitForm() {
+      console.log("First name:", this.firstName);
+      console.log("Last name:", this.lastName);
+      console.log("Email:", this.email);
+      console.log("Address:", this.address);
+
+      this.firstName = "";
+      this.lastName = "";
+      this.email = "";
+      this.address = "";
+    },
+  },
 }
 </script>
 
