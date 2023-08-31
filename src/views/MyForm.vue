@@ -20,6 +20,24 @@
              T 325,350 T475, 375 T 625,400 T 775,425 T 925,450 T1075,475 T1225,500 T1375,525"/>
           </svg>
         </div>
+        <div class="position-absolute">
+          <h2>Send your data</h2>
+          <form>
+            <div class="form-group">
+              <input type="text" class="my_input" placeholder="First name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="my_input" placeholder="Second name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="my_input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="my_input" id="inputAddress" placeholder="Adress">
+            </div>
+            <button type="submit" class="btn my_submit">Submit</button>
+          </form>
+        </div>
       </div>
     </div>
   </section>

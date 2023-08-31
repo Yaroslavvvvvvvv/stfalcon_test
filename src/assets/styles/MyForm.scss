@@ -26,5 +26,120 @@
         fill: none;
       }
     }
+
+    h2 {
+      margin-top: 50px;
+      margin-left: 447.76px;
+      color: $background;
+      text-align: center;
+      font-family: $font;
+      font-size: 3.125rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .my_input {
+      margin-left: 452.355px;
+      max-width: 100%;
+      margin-top: 16px;
+      padding-left: 30px;
+      padding-top: 15px;
+      border: 1px solid #C8C2C6;
+      padding-bottom: 15px;
+      width: 392px;
+      height: 58px;
+      border-radius: 38px;
+      background: #FFF;
+      color: #888;
+      font-family: $font;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+
+    .my_submit {
+      margin-left: 452.355px;
+      max-width: 100%;
+      margin-top: 16px;
+      border-radius: 100px;
+      background: $purple;
+      width: 392px;
+      height: 58px;
+      padding: 10px 24px;
+      color: $background;
+      font-family: $font;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+    }
+
+    .my_submit:hover {
+      background: $purple_hover;
+      transition: .5s;
+    }
+
+    @media (max-width: 1399.98px) {
+      h2 {
+        margin-left: 362.18px;
+      }
+      .my_input {
+        margin-left: 362.355px;
+      }
+      .my_submit {
+        margin-left: 362.355px;
+      }
+    }
+    @media (max-width: 1199.98px) {
+      h2 {
+        margin-left: 272.355px;
+      }
+      .my_input {
+        margin-left: 272.355px;
+      }
+      .my_submit {
+        margin-left: 272.355px;
+      }
+    }
+    @media (max-width: 991.98px) {
+      h2 {
+        margin-left: 152.355px;
+      }
+      .my_input {
+        margin-left: 152.355px;
+      }
+      .my_submit {
+        margin-left: 152.355px;
+      }
+    }
+    @media (max-width: 767.98px) {
+      h2 {
+        margin-top: 10px;
+        margin-left: 62.355px;
+      }
+      .my_input {
+        margin-left: 62.355px;
+      }
+      .my_submit {
+        margin-left: 62.355px;
+      }
+    }
+    @media (max-width: 575.98px) {
+      h2 {
+        font-size: 2.7rem;
+        margin-top: 10px;
+        margin-left: 16.78px;
+      }
+      .my_input {
+        width: 300px;
+        margin-left: 33.555px;
+      }
+      .my_submit {
+        width: 300px;
+        margin-left: 33.555px;
+      }
+    }
   }
 }
