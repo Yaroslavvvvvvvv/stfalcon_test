@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="container">
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg animate__animated animate__backInRight">
         <div class="container-fluid">
           <a class="navbar-brand my_brand" @click="goToHome" href="#">LOGO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
