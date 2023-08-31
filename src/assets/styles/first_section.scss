@@ -228,7 +228,7 @@
   }
   @media (max-width: 575.98px) {
     h1 {
-      font-size: 3.2rem;
+      font-size: 3rem;
       margin-left: 5px;
     }
     .colored_line {
@@ -236,6 +236,9 @@
     }
 
     p {
+      br{
+        display: none;
+      }
       font-size: 1.1rem;
       margin-left: 5px;
     }
@@ -246,9 +249,9 @@
       margin-left: 10px;
     }
     .iphone{
-      max-width: 50%;
+      max-width: 40%;
       margin-left: 140px;
-      margin-top: -300px;
+      margin-top: -250px;
     }
   }
 }

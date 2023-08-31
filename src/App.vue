@@ -6,10 +6,9 @@
 
 <script>
 
-
+import 'fontsource-montserrat';
 import MyHeader from "@/components/MyHeader.vue";
 import MyFooter from "@/components/MyFooter.vue";
-import 'fontsource-montserrat';
 
 export default {
   name: 'App',
