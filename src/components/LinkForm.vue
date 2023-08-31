@@ -1,7 +1,7 @@
 <template>
   <section class="link_form">
     <div class="container">
-      <div class="position-relative link_block">
+      <div class="position-relative link_block mw-100">
         <div class="position-absolute">
           <svg xmlns="http://www.w3.org/2000/svg" class="svg_line">
             <path class="svg_path"
@@ -18,6 +18,10 @@
                      Q100, 5 175, 50
              T325,25 T475,50 T625,75 T775,110 T925,135 T1075,160 T1225, 185 T1375, 210"/>
           </svg>
+        </div>
+        <div class="position-absolute small_form mw-100">
+          <h2>Send your data</h2>
+          <button type="button" class="btn button_form">Go to form</button>
         </div>
       </div>
     </div>
